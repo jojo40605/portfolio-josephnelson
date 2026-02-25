@@ -1,0 +1,94 @@
+.gallery-container {
+  padding: 2rem;
+  text-align: center;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+.gallery-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.project-thumbnail iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.project-card h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.project-card p {
+  padding: 0 1rem 1rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.modal-content iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 8px;
+}
+
+.close-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background: #222;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.close-button:hover {
+  background: #555;
+}
