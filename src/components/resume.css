@@ -1,0 +1,65 @@
+.resume-section {
+  padding: 5rem 2rem;
+  background: #f8f9fa;
+  color: #1a1a1a;
+  font-family: 'Inter', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.timeline {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.timeline-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.timeline-item {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 4px solid #0077ff;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+.timeline-subtitle {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.skills-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #0077ff;
+  font-weight: bold;
+}

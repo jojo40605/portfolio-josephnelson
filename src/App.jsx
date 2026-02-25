@@ -1,35 +1,35 @@
-function App() {
+import React, { useState } from 'react';
+import Hero from './components/Hero';
+import ProjectGallery from './components/ProjectGallery';
+import ProjectModal from './components/ProjectModal';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+import './index.css';
+
+export default function App() {
+  const [activeProject, setActiveProject] = useState(null);
+
   return (
-    <div style={{ maxWidth: "900px", margin: "0 auto", padding: "2rem", fontFamily: "Arial" }}>
-      <header>
-        <h1>Joseph Nelson</h1>
-        <p>Electrical Engineer | Embedded Systems | Signal Processing</p>
-      </header>
+    <div className="app">
+      {/* Hero Section */}
+      <Hero />
 
-      <hr />
+      {/* Project Gallery */}
+      <ProjectGallery onSelectProject={setActiveProject} />
 
-      <section>
-        <h2>Projects</h2>
+      {/* Resume / About Section */}
+      <Resume />
 
-        <div style={{ marginBottom: "2rem" }}>
-          <h3>Laser Tag Receiver System</h3>
-          <p>
-            Interrupt-driven embedded system using FreeRTOS with shot counter and reload logic.
-          </p>
-          <p><strong>Tech:</strong> C, FreeRTOS, ARM, Interrupts</p>
-        </div>
+      {/* Footer */}
+      <Footer />
 
-        <div style={{ marginBottom: "2rem" }}>
-          <h3>Signal Processing Filter Design</h3>
-          <p>
-            Designed and analyzed filters for biomedical signals using MATLAB.
-          </p>
-          <p><strong>Tech:</strong> MATLAB, LTSpice, Analog Design</p>
-        </div>
-
-      </section>
+      {/* Modal for Project Detail */}
+      {activeProject && (
+        <ProjectModal
+          project={activeProject}
+          onClose={() => setActiveProject(null)}
+        />
+      )}
     </div>
-  )
+  );
 }
-
-export default App
