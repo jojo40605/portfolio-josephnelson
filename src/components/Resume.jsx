@@ -27,7 +27,7 @@ const workExperience = [
   {
     title: 'Language Tutor and Translator',
     company: 'The Church of Jesus Christ of Latter-day Saints',
-    date: 'Apr 2026 – Present',
+    date: 'Feb 2023 – Present',
     location: 'Provo, UT',
     details: [
       'Tailored multilingual tutoring for 20+ humanitarian groups across the Middle East and Africa',
@@ -41,6 +41,16 @@ const workExperience = [
     location: 'Utah County / Provo, UT',
     details: [
       'Taught STEM concepts through underwater robotic vehicle construction',
+      'Worked with students and teachers, participated in regional competitions, mentored budding engineers'
+    ]
+  },
+  {
+    title: 'Volunteer & Leadership',
+    company: 'BYU AI-Chip Club',
+    date: 'Aug 2023 – Apr 2025',
+    location: 'Provo, UT',
+    details: [
+      'Strived to improve public knowledge of AI concepts and hardware through workshops and projects',
       'Coordinated club meetings, maintained records, organized events'
     ]
   }

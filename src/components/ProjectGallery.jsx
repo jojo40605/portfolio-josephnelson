@@ -7,11 +7,41 @@ const projects = [
     title: "Cookstove Emissions Sensor",
     overview: "Hardware project for rural Peru. Custom PCBs and sensors.",
     content: [
-      { type: "image", src: "/assets/images/laser_tag_1.jpg", alt: "Cookstove Image 1" },
-      { type: "image", src: "/assets/images/laser_tag_2.jpg", alt: "Cookstove Image 2" },
-      { type: "image", src: "/assets/images/laser_tag_3.jpg", alt: "Cookstove Image 3" },
-      { type: "text", content: "Designed custom PCBs to measure emissions and temperature. Integrated sensors for real-time data collection in rural Peru." }
-    ],
+  { 
+    type: "text", 
+    content: "As part of a Global Engineering Outreach (GEO) team at BYU, I worked on developing sustainable engineering solutions for rural communities in Peru. \
+    Our goal was to design systems that could operate reliably in low-resource environments while addressing real health and infrastructure challenges. \
+    NGOs provide stoves to aid with cooking of villagers, but these must be regiorously tested to ensure safe CO and particulate emissions. \
+    Our custom sensor cost 10% of the comercial alternatives and proved to be more accurate and reliable in field testing."
+  },
+  { 
+    type: "image", 
+    src: "/assets/images/arduino_pcb.png", 
+    alt: "Custom PCB Design" 
+  },
+  { 
+    type: "text", 
+    content: "I designed and tested custom PCBs for sensor integration, focusing on durability, power efficiency, and field serviceability. The boards interfaced with environmental sensors to collect real-time data on system performance and emissions." 
+  },
+  { 
+    type: "image", 
+    src: "/assets/images/lcd_pcb.png", 
+    alt: "LCD Interface Board" 
+  },
+  { 
+    type: "text", 
+    content: "I implemented embedded firmware to manage sensor acquisition, signal conditioning, and user interface control. The system was designed to be intuitive for local operators while maintaining engineering-grade measurement accuracy. This also included extensive CAD work." 
+  },
+  { 
+    type: "image", 
+    src: "/assets/images/screen_cad.png", 
+    alt: "CAD Design and Interface Layout" 
+  },
+  { 
+    type: "text", 
+    content: "Beyond hardware development, I contributed to system validation, field testing preparation, and iterative design improvements based on environmental constraints. The project emphasized sustainable engineering, long-term reliability, and measurable impact in developing regions." 
+  }
+],
     thumbnail: "assets/images/sensor_thumb.png",
   },
   {
@@ -36,9 +66,9 @@ const projects = [
     title: "Laser Tag System",
     overview: "IR communication and signal processing project.",
     content: [
-      { type: "image", src: "src/assets/images/robot_thumb.png", alt: "Laser Tag Image 1" },
-      { type: "image", src: "src/assets/images/robot_thumb.png", alt: "Laser Tag Image 2" },
-      { type: "image", src: "src/assets/images/robot_thumb.png", alt: "Laser Tag Image 3" },
+      { type: "image", src: "assets/images/robot_thumb.png", alt: "Laser Tag Image 1" },
+      { type: "image", src: "assets/images/robot_thumb.png", alt: "Laser Tag Image 2" },
+      { type: "image", src: "assets/images/robot_thumb.png", alt: "Laser Tag Image 3" },
       { type: "text", content: "Designed IR communication protocol and signal processing system for a laser tag setup. Tested range, latency, and accuracy." }
     ],
     thumbnail: "assets/images/robot_thumb.png",
