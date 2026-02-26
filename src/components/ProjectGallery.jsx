@@ -73,6 +73,30 @@ const projects = [
     ],
     thumbnail: "assets/images/robot_thumb.png",
   },
+  {
+    title: "Salem Witch Trials Game",
+    overview: "Interactive historical RPG game.",
+    content: [
+  {
+    type: "text",
+    content: "I developed a top-down RPG-style game based on the historical Salem Witch Trials. The player assumes the role of a magistrate responsible for collecting evidence, questioning townspeople, and determining the outcome of each case. The goal was to combine interactive storytelling with historically grounded decision-making systems."
+  },
+  {
+    type: "image",
+    src: "/assets/images/salem.gif",
+    alt: "Salem Witch Trials Gameplay"
+  },
+  {
+    type: "text",
+    content: "The game features a state-driven dialogue system that tracks evidence, character testimony, and player choices. Each decision influences public opinion, credibility metrics, and the final verdict, creating branching narrative paths and multiple possible outcomes."
+  },
+  {
+    type: "text",
+    content: "I implemented modular game systems for movement, interaction zones, and case progression. The architecture separates game logic from rendering, allowing for scalable content expansion and cleaner debugging. Evidence objects, testimonies, and verdict logic are handled through structured data models."
+  },
+  ],
+    thumbnail: "assets/images/salem_thumb.png",
+  },
 ];
 
 export default function ProjectGallery() {
