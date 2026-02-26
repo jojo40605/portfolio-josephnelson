@@ -83,7 +83,7 @@ const projects = [
   },
   {
     type: "image",
-    src: "/assets/images/salem.gif",
+    src: "assets/images/salem.gif",
     alt: "Salem Witch Trials Gameplay"
   },
   {

@@ -137,8 +137,18 @@ button, .btn, .btn-primary {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  /* Responsive columns */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
   gap: 2rem;
+
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  /* This is important */
+  align-items: stretch;
 }
 
 .project-card {
