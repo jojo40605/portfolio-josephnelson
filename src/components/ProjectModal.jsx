@@ -1,3 +1,4 @@
+import React from "react";
 import "./ProjectModal.css";
 
 export default function ProjectModal({ project, onClose }) {

@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jojo40605.github.io/portfolio-josephnelson", 
   "scripts": {
+    "predeploy": "vite build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

@@ -12,7 +12,7 @@ const projects = [
       { type: "image", src: "/assets/images/laser_tag_3.jpg", alt: "Cookstove Image 3" },
       { type: "text", content: "Designed custom PCBs to measure emissions and temperature. Integrated sensors for real-time data collection in rural Peru." }
     ],
-    thumbnail: "src/assets/images/sensor_thumb.png",
+    thumbnail: "assets/images/sensor_thumb.png",
   },
   {
     title: "Live Translation System",
@@ -21,7 +21,7 @@ const projects = [
       { type: "video", src: "https://www.youtube.com/embed/tMV2oE0BjUo?si=AjYnkoBW52Ki2bns" },
       { type: "text", content: "Implemented speech-to-speech translation with Azure ML services, hardware interface, and Kotlin application." }
     ],
-    thumbnail: "src/assets/images/robot_thumb.png",
+    thumbnail: "assets/images/robot_thumb.png",
   },
   {
     title: "Self-Driving Robot",
@@ -30,7 +30,7 @@ const projects = [
       { type: "video", src: "https://www.youtube.com/embed/LHD8BvKomRE" },
       { type: "text", content: "Developed a fully autonomous robot with real-time navigation, sensors, and obstacle avoidance." }
     ],
-    thumbnail: "src/assets/images/robot_thumb.png",
+    thumbnail: "assets/images/robot_thumb.png",
   },
   {
     title: "Laser Tag System",
@@ -41,7 +41,7 @@ const projects = [
       { type: "image", src: "src/assets/images/robot_thumb.png", alt: "Laser Tag Image 3" },
       { type: "text", content: "Designed IR communication protocol and signal processing system for a laser tag setup. Tested range, latency, and accuracy." }
     ],
-    thumbnail: "src/assets/images/robot_thumb.png",
+    thumbnail: "assets/images/robot_thumb.png",
   },
 ];
 
