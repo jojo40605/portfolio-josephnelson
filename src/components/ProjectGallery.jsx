@@ -16,7 +16,7 @@ const projects = [
   },
   { 
     type: "image", 
-    src: "/assets/images/arduino_pcb.png", 
+    src: "assets/images/arduino_pcb.png", 
     alt: "Custom PCB Design" 
   },
   { 
@@ -25,7 +25,7 @@ const projects = [
   },
   { 
     type: "image", 
-    src: "/assets/images/lcd_pcb.png", 
+    src: "assets/images/lcd_pcb.png", 
     alt: "LCD Interface Board" 
   },
   { 
@@ -34,7 +34,7 @@ const projects = [
   },
   { 
     type: "image", 
-    src: "/assets/images/screen_cad.png", 
+    src: "assets/images/screen_cad.png", 
     alt: "CAD Design and Interface Layout" 
   },
   { 
