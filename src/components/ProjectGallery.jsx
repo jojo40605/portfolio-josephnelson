@@ -71,7 +71,7 @@ const projects = [
       { type: "image", src: "assets/images/robot_thumb.png", alt: "Laser Tag Image 3" },
       { type: "text", content: "Designed IR communication protocol and signal processing system for a laser tag setup. Tested range, latency, and accuracy." }
     ],
-    thumbnail: "assets/images/robot_thumb.png",
+    thumbnail: "assets/images/laser_thumb.png",
   },
   {
     title: "Salem Witch Trials Game",
