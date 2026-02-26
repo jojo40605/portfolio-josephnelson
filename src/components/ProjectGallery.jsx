@@ -58,7 +58,18 @@ const projects = [
     overview: "Autonomous robot with embedded systems and sensors.",
     content: [
       { type: "video", src: "https://www.youtube.com/embed/LHD8BvKomRE" },
-      { type: "text", content: "Developed a fully autonomous robot with real-time navigation, sensors, and obstacle avoidance." }
+      { type: "text", content: "Developed a fully autonomous robot with real-time navigation, sensors, and obstacle avoidance." },
+      { type: "text",
+        content: `
+          More in-depth documentation and a full technical breakdown of this project 
+          can be found 
+          <a href="https://docs.google.com/presentation/d/1AmHWE39BTZP0NVcjnhFp7bs5os3PslZnh19bXQzSXRI/edit?usp=drive_link" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            here
+          </a>.
+        `
+      }
     ],
     thumbnail: "assets/images/robot_thumb.png",
   },
